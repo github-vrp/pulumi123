@@ -2,7 +2,7 @@ name: puluminewstart
 description: A minimal AWS Pulumi YAML program
 runtime: yaml
 resources:
-    # Create an AWS resource (S3 Bucket)
+    # Create an AWS resource (S3 Bucket9)
     my-bucket:
         type: aws:s3:Bucket
 outputs:
