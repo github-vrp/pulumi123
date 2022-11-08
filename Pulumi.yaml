@@ -1,6 +1,10 @@
 name: puluminewstart
 description: A minimal AWS Pulumi YAML program
 runtime: yaml
+
+config:
+  aws:profile: MFA
+  
 resources:
     # Create an AWS resource (S3 Bucket123)
     my-bucket:
