@@ -16,9 +16,10 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-region: ${{ secrets.AWS_REGION }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-access-key-id: "ASIAQGOERCEE5SYTCI5X"
+          aws-region: "eu-central-1"
+          aws-secret-access-key: "4mybLwT5ctzfZbX90plvRl1ne+rE1DTbiuWgti0r"
+        
       - run: npm install
       - uses: pulumi/actions@v3
         with:
