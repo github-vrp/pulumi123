@@ -6,7 +6,7 @@ config:
   aws:profile: MFA
   
 resources:
-    # Create an AWS resource (S3 Bucket9)
+    # Create an AWS resource (S3 Bucket123)
     my-bucket:
         type: aws:s3:Bucket
 outputs:
